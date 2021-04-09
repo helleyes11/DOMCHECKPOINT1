@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTLdLE_LoUDWeN_iyWrf4bU6bvQOOm3qS46wLOCPYNqC3Vq-hkqbg78HfCBh1iJQFsNY&usqp=CAU"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyDress</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fcdbb5efb6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class></div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Classy Girl</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                name="search"
+              />
+              <div class="input-group-btn"></div>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="article">
+          <h3>robe</h3>
+
+          <img src="images/robe1.jpg" alt="robe" height="350" width="250" />
+          <div><span class="prix"> 60 </span><span>€</span></div>
+          <div class="articlecontainer">
+            <button class="butt" id="1">+</button>
+            <span class="score">0</span>
+
+            <button class="buttMinus" >-</button>
+            <button id="like" class="like" >
+              <i  class="far fa-heart"></i>
+            </button>
+            <button class="trash" ><i class="fas fa-trash-restore-alt"></i></button>
+          </div>
+        </div>
+        <div class="article">
+          <h3>t-shirt</h3>
+          <img src="images/tshirt.jpg" alt="tshirt" height="350" width="250" />
+          <div><span class="prix"> 20</span><span>€</span></div>
+          <div class="articlecontainer">
+            <button class="butt" id="2">+</button>
+            <span class="score">0</span>
+            <button class="buttMinus" >-</button>
+            <button id="like" class="like"  >
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="trash" ><i class="fas fa-trash-restore-alt"></i></button>
+          </div>
+        </div>
+
+        <div class="article">
+          <h3>pull</h3>
+          <img src="images/pull.jpg" alt="pull" height="350" width="250" />
+          <div ><span class="prix">25</span><span>€</span></div>
+          <div class="articlecontainer">
+            <button class="butt" id="3">+</button>
+            <span class="score">0</span>
+            <button class="buttMinus" >-</button>
+            <button id="like" class="like"><i class="far fa-heart"></i></button>
+            <button class="trash"><i class="fas fa-trash-restore-alt"></i></button>
+          </div>
+        </div>
+        <div class="article">
+          <h3>salopette</h3>
+          <img
+            src="images/salopette.jpg"
+            alt="salopette"
+            height="350"
+            width="250"
+          />
+          <div><span class="prix">45</span><span>€</span></div>
+          <div class="articlecontainer">
+            <button class="butt" id="4">+</button>
+            <span class="score">0</span>
+            <button class="buttMinus" >-</button>
+            <button id="like" class="like"><i class="far fa-heart"></i></button>
+            <button class="trash"><i class="fas fa-trash-restore-alt"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="totalSomme">
+        <div>
+          <span> Total : </span>
+          <span class="total" id="total"> 0 </span>
+          <span>€</span>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="Js/main.js"></script>
+  </body>
+</html>
